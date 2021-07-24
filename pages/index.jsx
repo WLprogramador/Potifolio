@@ -26,6 +26,7 @@ export default function Home() {
           </ContentBox>
 
           <h1 style={{textAlign: "center"}}>Projects</h1>
+          <hr />
     </Content>
   )
 }

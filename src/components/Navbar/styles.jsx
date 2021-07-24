@@ -20,7 +20,7 @@ export const ContentLogo = styled.div`
 `;
 
 export const Logo = styled.h1`
-  padding-left:5rem;
+  padding-left:12rem;
   color:${({ theme }) => theme.colors.primary};
   font-size: 32px;
   font-family: 'Roboto', sans-serif;

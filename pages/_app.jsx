@@ -25,7 +25,8 @@ const theme = {
     primary: "#fafafa",
     black: "#000000",
     blue_dark_250: "#060962",
-    red: "#FF0000"
+    red: "#FF0000",
+    gray_100: "#A4A4A4",
   },
 };
  

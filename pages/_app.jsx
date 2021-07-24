@@ -1,6 +1,12 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+* {
+  margin:0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
 html{
   box-sizing: border-box;
   background: #F5F4F0;
@@ -10,14 +16,16 @@ html{
 }
 
 body{
-  font-family:;
+  font-family: 'Roboto', sans-serif;
 }
 `;
  
 const theme = {
   colors: {
     primary: "#fafafa",
-    black: "#000000"
+    black: "#000000",
+    blue_dark_250: "#060962",
+    red: "#FF0000"
   },
 };
  
